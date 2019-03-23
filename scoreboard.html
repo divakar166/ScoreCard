@@ -1,0 +1,72 @@
+<!-- Created by DIVAKAR-->
+
+<!--  Made By DIVAKAR  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="score.css">
+<script type="text/javascript" src="score.js"></script>
+<title>Scoreboard</title>
+
+</head>
+<body onload="myFunction() ,move()" style="margin:0;">
+<center>
+<div class="loader" id="loader">
+<br>
+<br><br><br><br>
+<font class="lt">Loading</font>
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif" style="width: 30px">
+<br>
+<br><br><br><br>
+<div id="Progress">
+  <div id="Bar" class="tooltip">
+  <span class="tooltiptext"><div id="label">10%</div></span>
+  </div>
+</div><br><br>
+<br><br>
+<br>
+<br>
+<br><br>
+</div>
+
+<br>
+<br>
+<br>
+<div style="display:none;" id="myDiv" class="animate-bottom">
+<h1><div style="color: #28841b; font-size: 25px;">ScoreBoard</div></h1>
+<font color="green" size="5px" face="agency fb"></font><hr color="grey">
+<br><br>
+Player 1
+<br />
+<input id="1" placeholder="Enter player 1 name"><br><br><br>
+Player 2
+<br />
+<input id="2" placeholder="Enter player 2 name"><br>
+<br><br>
+<button id="ad" onclick="submit()">Submit | <i class="fas fa-check"></i></button><br /><br /><hr color="grey">
+
+<p id="demo"></p>
+<br>
+Player 1  <p id="p"></p><br>
+<button onclick="player1()" id="b" disabled="">
+Add Score | <i class="fas fa-plus"></i></button><br><br>
+Player 2  <p id="p2"></p>
+<button onclick="player2()" id="9" disabled="">Add Score | <i class="fas fa-plus"></i></button>
+<br>
+<br><br>
+<button onclick="reset()">Reset | <i class="fas fa-undo"></i></button>
+<br /><br />
+<p id="rst"></p>
+<br><br>
+<hr color="grey"><br>
+<div style="font-size: 15px;"><div class="footer1">Made by<a href="https://www.sololearn.com/Profile/10314532/?ref=app"> DIVAKAR </a>
+</div></font>
+<br><br><br><br>
+</div>
+<br>
+</center>
+</body>
+</html>
